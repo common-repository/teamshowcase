@@ -1,0 +1,60 @@
+/* MTT -Free Design 01 */
+.our-team{
+    border:1px solid #ededed;
+    padding: 20px;
+}
+.our-team .pic > img{
+    width: 100%;
+    height: auto;
+}
+.team-prof .post-title{
+    text-transform: capitalize;
+    color: #E49A58;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1em;
+    margin-top: 30px;
+}
+.team-prof .post{
+    color:#6D6D6D;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1em;
+    text-transform: capitalize;
+}
+.team-prof .description{
+    color:#6D6D6D;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.7em;
+}
+.team-prof .social_media_team{
+    margin: 0 auto;
+    list-style: none;
+    margin-top: 10px;
+}
+.social_media_team > li{
+    display: inline-block;
+    margin-left: 5px;
+}
+.social_media_team > li > a{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #e0e0e0;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    color:#000;
+    transition:all 0.2s linear 0s;
+    border: 1px solid #E67E22;
+}
+.social_media_team > li > a:hover{
+    background: #e67e22;
+    color:#fff;
+}
+@media screen and (max-width: 767px){
+    .our-team{
+        margin-bottom: 30px;
+    }
+}
